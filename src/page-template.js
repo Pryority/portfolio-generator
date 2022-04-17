@@ -35,7 +35,7 @@ const generateProjects = projectsArr => {
       .join('')}
 
       ${projectsArr
-      .filter(({ feature }) => !feature)
+      .filter(({ feature }) => !feature)``
       .map(({ name, description, languages, link }) => {
         return `
           <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
